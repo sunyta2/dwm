@@ -1,0 +1,28 @@
+* ~/suckless/dwm/
+
+setup — if you’ve done this kind of thing before or	
+HTTPS
+SSH
+https://github.com/sunyta2/dwm.git
+Get started by creating a new file or uploading an existing file. We recommend every repository include a README, LICENSE, and .gitignore.
+
+#+BEGIN_SRC sh
+git clone https://github.com/sunyta2/config_github.git
+# …or create a new repository on the command line
+echo "* dwm" >> readme.org
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/sunyta2/dwm.git
+git push -u origin master
+#+END_SRC
+
+#+BEGIN_SRC sh
+#…or push an existing repository from the command line
+git remote add origin https://github.com/sunyta2/dwm.git
+git push -u origin master
+#+END_SRC
+
+…or import code from another repository
+You can initialize this repository with code from a Subversion, Mercurial, or TFS project.
+
