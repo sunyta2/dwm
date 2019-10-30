@@ -1,3 +1,7 @@
+
+$ git apply dwm-fakefullscreen-20170508-ceac8c9.diff
+$ patch -p1 < dwm-fakefullscreen-20170508-ceac8c9.diff
+
 git config --global credential.helper 'cache --timeout=2628000'
 
 * ~/suckless/dwm/
@@ -41,3 +45,12 @@ Next you'll probably get link errors - use -L parameter.
 
 How add rsa_key in arco
 pub키를 일단 추가해서 실험함
+
+* git apply with diff
+      M-! {Dired모드에서 ./ 위치에서}
+        curl -O https://dwm.suckless.org/patches/fakefullscreen/dwm-fakefullscreen-20170508-ceac8c9.diff
+         $ git apply dwm-fakefullscreen-20170508-ceac8c9.diff
+[ubuntu - How to add patches to dwm - Super User](https://superuser.com/questions/658038/how-to-add-patches-to-dwm#658059)
+
+
+         $ patch -p1 < dwm-fakefullscreen-20170508-ceac8c9.diff
