@@ -27,6 +27,12 @@ git push -u origin master
 You can initialize this repository with code from a Subversion, Mercurial, or TFS project.
 
 
-lrwxr-xr-x  1 thinkpad  admin  27  6 18 10:24 /usr/local/bin/dwm -> ../Cellar/dwm/6.2_1/bin/dwm
+lrwxr-xr-x  1 thinkpad  admin  27  6 18 10:24 /usr/local/bin/dwm -> ../Cellar/dwm/6.2_1/bin/dwm
  which dwm in macosx
+$ brew install freetype --with-freetype-dir=/usr/local/Cellar/freetype
+"Error: invalid option: --with-freetype-dir=/usr/local/Cellar/freetype" – Marc J. Schmidt Oct 16 at 12:54
+add a comment
+
+Add the path to your headers to the clang include paths by using -I parameter: clang++ ... -I/opt/local/include ... for example.
+Next you'll probably get link errors - use -L parameter.
 
