@@ -26,3 +26,7 @@ git push -u origin master
 …or import code from another repository
 You can initialize this repository with code from a Subversion, Mercurial, or TFS project.
 
+
+lrwxr-xr-x  1 thinkpad  admin  27  6 18 10:24 /usr/local/bin/dwm -> ../Cellar/dwm/6.2_1/bin/dwm
+ which dwm in macosx
+
